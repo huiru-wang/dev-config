@@ -3,6 +3,7 @@
 ## Install
 
 [Neovim Install](https://neovim.io/doc/install/)
+[LazyVim Doc](https://www.lazyvim.org/)
 
 ```bash
 # 判断内核
@@ -16,12 +17,13 @@
 
 # 系统设置  -> 隐私与安全性 -> 允许(仍要打开)
 > nvim --version
+
 ```
 
 ## Cheatsheet
 
 ### 文件目录操作
-```
+```shell
 <leader>e          # 打开/关闭文件树
 <leader>E          # 打开文件树并定位当前文件
 m                  # 添加书签
@@ -30,7 +32,7 @@ B                  # 显示所有书签
 ```
 
 ### 光标移动
-```
+```shell
 ## 跨行
 h j k l            # 左下上右 (基础)
 zz                 # 当前行居中
@@ -46,6 +48,7 @@ e / ge             # 下一个/上一个单词结尾
 $ / g_             # 行尾/最后一个非空字符
 
 ## 搜索
+
 /pattern / ?pattern     # 向下搜索 / 向上搜索
 n / N                   # 下一个/上一个搜索结果
 <leader>sg              # grep 项目关键字搜索
@@ -56,7 +59,7 @@ n / N                   # 下一个/上一个搜索结果
 ```
 
 ### 搜索
-```
+```shell
 /pattern / ?pattern           # 向下搜索 / 向上搜索
 n / N              # 下一个/上一个搜索结果
 <leader>sg         # grep 项目关键字搜索
@@ -67,7 +70,7 @@ n / N              # 下一个/上一个搜索结果
 ```
 
 ### 标记操作
-```
+```shell
 m{a-z}             # 设置本地标记（单个文件内）
 m{A-Z}             # 设置全局标记（整个项目）
 
@@ -91,7 +94,16 @@ gr          # 查找所有引用
 大K         # 显示悬停文档
 ```
 
-### 插件管理
+## 插件管理
+
+### 安装LSP
+
+```shell
+:MasonInstall <LSP-Server>
+```
 
 
+
+```
+```
 
