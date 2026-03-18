@@ -109,8 +109,8 @@ K             # 显示悬停文档
 :MasonInstall <LSP-Server>
 ```
 
+### 插件
 
+光标移动插件：[smear-cursor.nvim](https://github.com/sphamba/smear-cursor.nvim)
 
-```
-```
 
