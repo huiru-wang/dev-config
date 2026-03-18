@@ -24,6 +24,7 @@ show_hidden = true       # 默认显示隐藏文件
 linemode = "size_and_mtime"
 ```
 
+对应 yazi.toml的 linemode的表示函数：
 ```lua
 -- ~/.config/yazi/init.lua
 
