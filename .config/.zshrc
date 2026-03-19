@@ -1,8 +1,8 @@
 #################### zsh #####################
 export ZSH="$HOME/.oh-my-zsh"
-source $ZSH/oh-my-zsh.sh
 # zsh theme
 ZSH_THEME="robbyrussell"
+source $ZSH/oh-my-zsh.sh
 # zsh 插件
 plugins=(git web-search z)
 # zsh 高亮
@@ -41,11 +41,9 @@ proxy_on() {
   export https_proxy="http://127.0.0.1:7897"
   export HTTP_PROXY="http://127.0.0.1:7897"
   export HTTPS_PROXY="http://127.0.0.1:7897"
-  echo "✅ Proxy Enabled"
 }
 proxy_off() {
   unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY
-  echo "❌ Proxy Disabled"
 }
 proxy_on
 
@@ -70,4 +68,3 @@ export PATH=/Users/wanghuiru/.opencode/bin:$PATH
 export PATH="/opt/homebrew/opt/trash/bin:$PATH"
 
 #################### keys ###################
-
