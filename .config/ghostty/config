@@ -17,12 +17,18 @@ confirm-close-surface = false
 # 光标轨迹特效相关文件
 custom-shader = "~/.config/ghostty/shaders/cursor_smear.glsl"
 
-# quick-terminal
-quick-terminal-position=bottom
+# ===
+# === quick terminal
+# ===
 keybind = global:f12=toggle_quick_terminal
+quick-terminal-position=top
 gtk-quick-terminal-layer=overlay
 quick-terminal-animation-duration=0.1
-quick-terminal-size=40%
+
+# ===
+# === MAC
+# ===
+macos-titlebar-style = tabs
 
 # ===
 # === 主题
@@ -47,5 +53,3 @@ palette = 15=#ffffff
 foreground = f8f8f2
 background = 282a36
 background-opacity = 0.75
-window-decoration = false
-
