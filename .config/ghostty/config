@@ -17,6 +17,13 @@ confirm-close-surface = false
 # 光标轨迹特效相关文件
 custom-shader = "~/.config/ghostty/shaders/cursor_smear.glsl"
 
+# quick-terminal
+quick-terminal-position=bottom
+keybind = global:f12=toggle_quick_terminal
+gtk-quick-terminal-layer=overlay
+quick-terminal-animation-duration=0.1
+quick-terminal-size=40%
+
 # ===
 # === 主题
 # ===
