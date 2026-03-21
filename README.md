@@ -27,6 +27,10 @@ Tmux 将会话与窗口解绑：
 
 ## ClaudeCode
 
+Reference:
+- [Claude Code Docs](https://code.claude.com/docs/zh-CN/overview)
+- [BiliBili 无废话实用教程](https://www.bilibili.com/video/BV14rzQB9EJj/?spm_id_from=333.337.search-card.all.click&vd_source=ce67cf212f4a949cf75348b5404c5e27)
+
 重要目录：
 - `~/.claude.json`：元配置
 - `~/.claude/`：全局配置
@@ -105,11 +109,3 @@ npx skills add vercel-labs/agent-skills@vercel-react-best-practices
 ◇  Installation method
 │  Symlink (Recommended)
 ```
-```
-```
-
-
-
-
-```
-
