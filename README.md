@@ -24,7 +24,6 @@ Tmux 将会话与窗口解绑：
 3. 允许单个session可以有多个连接的window（多人共享）
 4. 窗口的任意拆分（水平、垂直）
 
-
 ## ClaudeCode
 
 Reference:
