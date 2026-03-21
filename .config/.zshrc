@@ -4,9 +4,26 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 source $ZSH/oh-my-zsh.sh
 # zsh 插件
-plugins=(git web-search z)
-# zsh 高亮
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# alias gs='git status'
+# alias ga='git add'
+# alias gaa='git add --all'
+# alias gcam='git commit -a -m'
+# alias gl='git pull'
+# alias gp='git push'
+# alias glog='git log --oneline --graph --decorate'
+# alias gco='git checkout'
+# alias gb='git branch'
+# alias gm='git merge'
+# alias gba='git branch -a'
+# alias gbd='git branch -d'
+# alias gcob='git checkout -b'
+plugins=(
+  git 
+  z
+  web-search
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
 # zsh 自动纠错命令
 # setopt CORRECT_ALL
 # zsh 默认编辑器为nvim

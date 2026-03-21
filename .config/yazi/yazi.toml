@@ -4,6 +4,7 @@
 
 [mgr]
 linemode = "size_and_mtime"
+# 三列窗口显示比例
 ratio = [1, 3, 2]
 show_hidden = false
 show_symlink = true
