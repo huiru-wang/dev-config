@@ -1,0 +1,4 @@
+{
+    // 标记已完成引导，启动不再出现选择model、认证方式
+    "hasCompletedOnboarding": true
+}

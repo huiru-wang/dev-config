@@ -35,30 +35,6 @@ Reference:
 - `~/.claude/`：全局配置
 - `~/.claude/settings.json`：URL、API_KEY、MODEL、PERMISSION等
 
-```json
-{
-    "env": {
-        "ANTHROPIC_AUTH_TOKEN": "",
-        "ANTHROPIC_BASE_URL": "https://api.minimaxi.com/anthropic",
-        "API_TIMEOUT_MS": "3000000",
-        "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
-        "ANTHROPIC_MODEL": "MiniMax-M2.7",
-        "ANTHROPIC_SMALL_FAST_MODEL": "MiniMax-M2.7",
-        "ANTHROPIC_DEFAULT_SONNET_MODEL": "MiniMax-M2.7",
-        "ANTHROPIC_DEFAULT_OPUS_MODEL": "MiniMax-M2.7",
-        "ANTHROPIC_DEFAULT_HAIKU_MODEL": "MiniMax-M2.7"
-    },
-    "permissions": {
-        "allow": [
-            "Bash(npm list:*)",
-            "Bash(npm install:*)",
-            "Bash(pnpm add:*)"
-        ],
-        "defaultMode": "default"
-    }
-}
-```
-
 执行模式：
 - `? for shotcuts`默认模式：创建修改询问用户开启：`shift + tab`
 - `accept edits on`自动模式：自动创建修改文件（执行终端命令依然会寻求同意）开启：`shift + tab`
@@ -71,6 +47,13 @@ Reference:
 回滚代码：`/rewind` 或双击 Esc 选中回滚点；
 
 主动压缩上下文：`/compact [定制化压缩]`
+
+
+## Opencode
+
+重要目录：
+- `~/.config/opencode/`：配置目录
+- `~/.config/opencode/opencode.json`：核心模型配置位置
 
 ## Skills
 

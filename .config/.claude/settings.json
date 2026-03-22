@@ -1,0 +1,36 @@
+{
+    "env": {
+        "ANTHROPIC_AUTH_TOKEN": "",
+        "ANTHROPIC_BASE_URL": "https://api.minimaxi.com/anthropic",
+        "API_TIMEOUT_MS": "3000000",
+        "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+        "ANTHROPIC_MODEL": "MiniMax-M2.7",
+        "ANTHROPIC_SMALL_FAST_MODEL": "MiniMax-M2.7",
+        "ANTHROPIC_DEFAULT_SONNET_MODEL": "MiniMax-M2.7",
+        "ANTHROPIC_DEFAULT_OPUS_MODEL": "MiniMax-M2.7",
+        "ANTHROPIC_DEFAULT_HAIKU_MODEL": "MiniMax-M2.7"
+    },
+    "permissions": {
+        "allow": [
+            "Read(//Users/wanghuiru/.claude/**)",
+            "Bash(find . -name *.md -path *openspec* -o -name *.json -path *openspec* -o -name *.yaml -path *openspec*)",
+            "Bash(openspec status:*)",
+            "Bash(openspec list:*)",
+            "Bash(openspec instructions:*)",
+            "Bash(npx tsc:*)",
+            "Bash(node:*)",
+            "Bash(find /Users/wanghuiru/Workspace/side-project/agent-learn-lab/node_modules -maxdepth 3 -name *.d.ts)",
+            "Bash(find /Users/wanghuiru/Workspace/side-project/agent-learn-lab/node_modules -maxdepth 5 -path */provider-utils/dist/index.d.ts)",
+            "Bash(find /Users/wanghuiru/Workspace/side-project/agent-learn-lab/node_modules -maxdepth 5 -name *.d.ts)",
+            "Bash(find /Users/wanghuiru/Workspace/side-project/agent-learn-lab/node_modules -maxdepth 4 -name *.d.ts)",
+            "Bash(xargs grep:*)",
+            "Bash(find /Users/wanghuiru/Workspace/side-project/agent-learn-lab/node_modules -maxdepth 3 -name package.json -path */zod/package.json)",
+            "Bash(npx next:*)",
+            "Bash(npm list:*)",
+            "Bash(npm install:*)",
+            "Bash(pnpm add:*)"
+        ],
+        "defaultMode": "default"
+    },
+    "skipDangerousModePermissionPrompt": true
+}
