@@ -2,28 +2,6 @@
 
 Ghostty + Yazi + NeoVim + ClaudeCode
 
-## 1. Ghostty
-
-1. 性能与渲染(Zig、GPU加速、内存占用低)
-2. 配置灵活、单window多session
-3. `Quick Terminal`很好用
-
-## 2. Yazi
-
-1. Mac的Finder太难用了，将可视化目录管理在终端集成
-2. 无缝集成Neovim
-3. Vim语法更高效的完成：查找文件、切换、跳转目录、文件预览、即时编辑
-
-## Tmux
-
-一个Terminal可以打开多个windows，每个window正常情况下是一个session，session对应一个进程，互相绑定（关闭session则关闭进程）
-
-Tmux 将会话与窗口解绑：
-1. 允许单个window访问多个session
-2. 新的window可以接入已有的session
-3. 允许单个session可以有多个连接的window（多人共享）
-4. 窗口的任意拆分（水平、垂直）
-
 ## ClaudeCode
 
 Reference:
