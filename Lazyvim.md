@@ -95,13 +95,33 @@
 
 插件和Neovim配置：`./.config/nvim`
 
+插件市场推荐：`:LazyExtras`
+
+推荐：
+- lang.json
+- lang.markdown
+- 
+
+
 | 插件 | 说明 |
 |------|------|
 | [snacks.nvim](https://github.com/folke/snacks.nvim) | 文件树、Dashboard 增强 |
 | [blink.cmp](https://github.com/saghen/blink.cmp) | 代码补全（markdown/tex 文件禁用） |
+| `tokyonight` | 配色主题 |
 | `tokyonight` | 配色主题 |
 
 ## LSP
 
 ```shell
 :MasonInstall <LSP-Server>
+```
+- json-lsp            " JSON LSP
+- lua-language-server " Lua LSP
+- marksman            " Markdown LSP
+- shfmt               " Shell 格式化
+- stylua              " Lua 格式化
+- tree-sitter-cli     " 语法高亮
+- typescript-language-server  " TS/JS LSP
+- markdown-toc        " 生成目录工具，看你是否用到
+- markdownlint-cli2   " lint 工具
+- marksman            " markdown LSP
