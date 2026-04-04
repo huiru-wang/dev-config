@@ -3,6 +3,7 @@ return {
   opts = {
     bigfile = { enabled = true },
     dashboard = { enabled = true },
+    image = { enabled = true },
     explorer = { -- 关键配置部分
       -- 或者其他你可能启用的 snacks 组件
       filter = {

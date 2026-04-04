@@ -5,7 +5,7 @@
 local opt = vim.opt
 
 opt.updatetime = 100
-opt.tabstop = 4
+--opt.tabstop = 4
 opt.shiftwidth = 4
 opt.expandtab = true
 opt.scrolloff = 8
