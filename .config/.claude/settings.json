@@ -32,5 +32,11 @@
         ],
         "defaultMode": "default"
     },
-    "skipDangerousModePermissionPrompt": true
+    "skipDangerousModePermissionPrompt": true,
+    "model": "MiniMax-M2.7",
+    "statusLine": {
+        "type": "command",
+        "command": "npx -y ccstatusline@latest",
+        "padding": 0
+    }
 }
